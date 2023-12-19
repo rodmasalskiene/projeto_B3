@@ -1,6 +1,6 @@
 <h1>🏛️ Projeto de Análise da Bolsa de Valores - Ações</h1>
 <h2>Visão Geral</h2>
-<p>No projeto foi feita a coleta de dados das ações da bolsa de valores por meio de duas APIs - Yfinance e Brapi, por meio destas foram criados datasets no formato .csv para a subsequente análise desses dados. O período de dados coletados foi de três anos 12/20 ~ 12/23. Ações que não possuiam registros dentro desse período foram excluídas.</p>
+<p>No projeto foi feita a coleta de dados das ações da bolsa de valores por meio de duas APIs - Yfinance e Brapi, por meio destas foram criados datasets no formato .csv para a subsequente análise desses dados.</p>
 
 <h3>🗃️ Datasets criados:</h3>
 <ul>
@@ -22,6 +22,12 @@
       <li>Yfinance: Utilizada para coletar o histórico de preço de cada ação.</li>
     </ul>
   </li>
+</ul>
+
+<h3>⚠️ Observações:</h3>
+<ul>
+  <li>O projeto está longe de ser perfeito, ainda há muito chão para tornar ele bem otimizado.</li>
+  <li>Ações que não apresentavam dados dentro do período estimado de três anos foram excluídas. Não acho que seja a melhor opção, mas por enquanto o projeto não vai incluir essas ações.</li>
 </ul>
 
 <h3>A seguir...</h3>
