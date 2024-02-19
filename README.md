@@ -1,36 +1,31 @@
-<h1>🏛️ Projeto de Análise da Bolsa de Valores - Ações</h1>
-<h2>Visão Geral</h2>
-<p>No projeto foi feita a coleta de dados das ações da bolsa de valores por meio de duas APIs - Yfinance e Brapi, por meio destas foram criados datasets no formato .csv para a subsequente análise desses dados.</p>
+<h1>🏛️ B3 Data Analysis</h1>
+<h2>Resume</h2>
+<p>This project intends to collect and analyze data from the stock market B3.</p>
 
-<h3>🗃️ Datasets criados:</h3>
+<h3>🗃️ Created Datasets:</h3>
 <ul>
-  <li>df_close: Valor de fechamento da ação no dia.</li>
-  <li>df_dividends: Valor dos dividendos que foram pagos pela empresa.</li>
-  <li>df_high: Maior valor que a ação alcançou no dia.</li>
-  <li>df_low: Menor valor que a ação alcançou no dia.</li>
-  <li>df_open: Preço de abertura da ação.</li>
-  <li>df_volume: Atividade de negociação da ação no dia - Compra e Venda.</li>
+  <li>df_close</li>
+  <li>df_dividends</li>
+  <li>df_high</li>
+  <li>df_low</li>
+  <li>df_open</li>
+  <li>df_volume</li>
 </ul>
-<h3>⚒️ Ferramentas utilizadas:</h3>
+<h3>⚒️ Tools:</h3>
 <ul>
-  <li>Jupyter Notebook: IDE utilizada.</li>
-  <li>Python: Linguagem de programação utilizada.</li>
-  <li>Pandas: Biblioteca do Python usada para manipular os dados - Converter para DataFrame e respectivamente para csv.</li>
+  <li>Jupyter Notebook</li>
+  <li>Python</li>
+  <li>Pandas</li>
   <li>APIs:
     <ul>
-      <li>Brapi: Utilizada para coletar o nome de todas as ações do mercado.</li>
-      <li>Yfinance: Utilizada para coletar o histórico de preço de cada ação.</li>
+      <li>Brapi</li>
+      <li>Yfinance</li>
     </ul>
   </li>
 </ul>
 
-<h3>⚠️ Observações:</h3>
+<h3>⚠️ Note:</h3>
 <ul>
-  <li>O projeto está longe de ser perfeito, ainda há muito chão para tornar ele bem otimizado.</li>
-  <li>Ações que não apresentavam dados dentro do período estimado de três anos foram excluídas. Não acho que seja a melhor opção, mas por enquanto o projeto não vai incluir essas ações.</li>
+  <li>Due to problems dealing with data in the creation of analysis, I'm gonna have to remake this project with the intend to create a complete, new and better dataset optmized and capable of dealing with large chunks of data to work with.</li>
 </ul>
 
-<h3>A seguir...</h3>
-<p>🚧 O projeto está em desenvolvimento! 🚧</p>
-  <p>No próximo passo eu pretendo fazer uma análise de mercado, tais como ações que mais pagaram dividendos, ações que mais se valorizaram, etc. E com isso elaborar dashboards no Power BI para exibição dos resultados.</p>
-  <p>Também busco implementar um modelo de Machine Learning para predizer o preço das ações. Por que não afinal? Desde o começo é o que mais estou ansioso para realizar! 👻</p>
