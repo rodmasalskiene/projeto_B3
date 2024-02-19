@@ -26,6 +26,7 @@
 
 <h3>⚠️ Note:</h3>
 <ul>
-  <li>Due to problems dealing with data in the creation of analysis, I'm gonna have to remake this project with the intend to create a complete, new and better dataset optmized and capable of dealing with large chunks of data to work with.</li>
+  <li>Due to problems dealing with data in the creation of analysis, I'm gonna have to remake this project with the intend to create a complete, new and better optmized dataset.</li>
+  <li>So for now, the project is canceled.</li>
 </ul>
 
